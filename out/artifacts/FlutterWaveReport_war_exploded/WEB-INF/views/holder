@@ -1,0 +1,15 @@
+<tbody>
+                    <c:forEach items="${fRequests}" var="singleRequest">
+                        <tr>
+                            <td>${singleRequest.id}</td>
+                            <td>${singleRequest.firstName}</td>
+                            <td>${singleRequest.lastName}</td>
+                            <td>${singleRequest.phoneNumber}</td>
+                            <td>${singleRequest.email}</td>
+                            <td>${singleRequest.card_no}</td>
+                            <td>${singleRequest.amount}</td>
+                            <td>${singleRequest.refNO}</td>
+                            <td>${singleRequest.status}</td>
+                        </tr>
+                    </c:forEach>
+                    </tbody>
